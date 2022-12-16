@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pulsar-consumer/pulsar-consumer.iml" filepath="$PROJECT_DIR$/pulsar-consumer/pulsar-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulsar-producer/pulsar-producer.iml" filepath="$PROJECT_DIR$/pulsar-producer/pulsar-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-apache-pulsar-microservices.iml" filepath="$PROJECT_DIR$/.idea/springboot-apache-pulsar-microservices.iml" />
+    </modules>
+  </component>
+</project>
