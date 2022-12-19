@@ -27,5 +27,15 @@ public class PulsarController {
 
         return "Message is sent";
     }
+    @PostMapping("/send/async")
+    public String sendMessageAsync(@RequestBody MyMessage myMessage){
+        try {
+            pulsarProducer.sendMessageAsync(myMessage);
+        } catch (PulsarClientException e) {
+            throw new RuntimeException(e);
+        }
+
+        return "Message is sent";
+    }
 
 }
